@@ -11,7 +11,7 @@ body {
 }
 
 form {
-    width: 300px;
+    width: 350px;
     background-color: rgba(248, 248, 234, 0.882);
     margin: 0 auto;
     padding: 12px;
@@ -54,6 +54,14 @@ option {
 }
 
 #calcRule {
-    background-color: rgb(146, 146, 231);
+    background-color: rgb(75, 213, 211);
     border-radius: 6px;
+}
+
+#result {
+    display: none;
+    width: 350px;
+    margin: 0 auto;
+    background-color: rgb(135, 226, 244);
+    padding: 12px;
 }
