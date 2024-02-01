@@ -65,3 +65,25 @@ option {
     background-color: rgb(135, 226, 244);
     padding: 12px;
 }
+
+table {
+    width: 80%;
+    margin: 6px auto;
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    background-color: aliceblue;
+}
+
+thead th {
+    background-color: rgb(116, 174, 176);
+    border: 1px solid darkgray;
+}
+
+td {
+    border: 1px solid darkgray;
+    padding: 6px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(116, 174, 176);
+}
